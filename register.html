@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ebay.register</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body style="background-color:lavenderblush;">
+    <div class="container">
+        <a href="register.html"><img src="Images\ebay logo.png" alt="ebay logo"/></a>
+
+        <div class="row">
+            <div class="col-sm-6"></div>
+            <div class="jumbotron col-sm-6" style="background-color:lavender;">
+                <h1>Register</h1>
+
+                <form id="registrationForm">
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" class="form-control" id="username" name="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="email_address">Email Address:</label>
+                        <input type="email" class="form-control" id="email_address" name="email_address">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" class="form-control" id="password" name="password">
+                    </div>
+                    <input type="submit" value="Submit" id="submit" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ensure script uses type="module" -->
+    <script type="module" src="register.js"></script>
+</body>
+</html>

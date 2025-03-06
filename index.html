@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ebay.co.in</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Images\ebay logo.png" >
+        </div>
+        <nav>
+            <a href="login.html">login</a>
+            <a href="register.html">register</a>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+            <a href="checkout.html">Checkout</a>
+            <a href="Contact.html">Contact Us</a>
+            <a href="About.html">About Us</a>
+        </nav>
+    </header>
+    <br><br> 
+    <p><h1>Latest features Products</h1></p>
+
+    <section class="product-list">
+        <div class="product-card">
+            <img src="Images\suit.jpeg" alt="SUIT">
+            <h2>Suit</h2>
+            <p>₹1000</p>
+            <button class="add-to-cart" onclick="addToCart('Suit', 1000)">Add to Cart</button>   
+            <button onclick="window.location.href='checkout.html';"style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>     
+        </div>
+
+        <div class="product-card">
+            <img src="Images\SAREE.jpeg" alt="SAREE">
+            <h2>Saree</h2>
+            <p>₹2500</p>
+            <button class="add-to-cart" onclick="addToCart('Saree', 2500)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+
+        </div>
+
+        <div class="product-card">
+            <img src="Images\Readymade Lehenga.jpeg" alt="Readymade Lehenga">
+            <h2>Readymade Lehenga</h2>
+            <p>₹6,000</p>
+            <button class="add-to-cart" onclick="addToCart('Readymade Lehenga', 6000)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+
+        </div>
+
+        <div class="product-card">
+            <img src="Images/Rajasthani dress.jpeg" alt="Rajasthani dress">
+            <h2>Rajasthani dress</h2>
+            <p>₹3,000</p>
+            <button class="add-to-cart" onclick="addToCart('Rajasthani dress', 3000)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+
+        </div>
+
+
+        <div class="product-card">
+            <img src="Images\3 Pieace suit.jpeg" alt="3 Pieace suit">
+            <h2>3 Pieace suit</h2>
+            <p>₹6,500</p>
+            <button class="add-to-cart" onclick="addToCart('3 Pieace suit', 6500)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+
+        </div>
+
+        <div class="product-card">
+            <img src="Images\JODHPURI SUIT.jpeg" alt="JODHPURI SUIT">
+            <h2>JODHPURI SUIT</h2>
+            <p>₹4,000</p>
+            <button class="add-to-cart" onclick="addToCart('JODHPURI SUIT', 4000)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+
+        </div>
+
+        <div class="product-card">
+            <img src="Images\Apple 16 Pro Max (1Tb).jpeg" alt="Apple 16 Pro Max (1Tb)">
+            <h2>Apple 16 Pro Max (1Tb)</h2>
+            <p>₹1,50,000</p>
+            <button class="add-to-cart" onclick="addToCart('Apple 16 Pro Max (1Tb)', 150000)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+
+        </div>
+
+
+        <div class="product-card">
+            <img src="Images\Apple Airpods Pro.jpeg" alt="Apple Airpods Pro">
+            <h2>Apple Airpods Pro</h2>
+            <p>₹20,000</p>
+            <button class="add-to-cart" onclick="addToCart('Apple Airpods Pro', 20000)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Images\Apple Macbook Pro.jpeg" alt="Apple Macbook Pro">
+            <h2>Apple Macbook Pro</h2>
+            <p>₹2,00,000</p>
+            <button class="add-to-cart" onclick="addToCart('Apple Macbook Pro', 200000)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Images\Apple Watch.jpeg" alt="Apple Watch">
+            <h2>Apple Watch</h2>
+            <p>₹50,000</p>
+            <button class="add-to-cart" onclick="addToCart('Apple Watch', 50000)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Images\HAIR DRAYER.jpeg" alt="HAIR DRAYER.">
+            <h2>HAIR DRAYER</h2>
+            <p>₹1000</p>
+            <button class="add-to-cart" onclick="addToCart('HAIR DRAYER', 1000)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Images\HAIR SERUM.jpeg" alt="HAIR SERUM">
+            <h2>HAIR SERUM</h2>
+            <p>₹3,000</p>
+            <button class="add-to-cart" onclick="addToCart('HAIR SERUM', 3000)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Images\HAIR STRAIGHTNER.jpeg" alt="HAIR STRAIGHTNER">
+            <h2>HAIR STRAIGHTNER</h2>
+            <p>₹3,500</p>
+            <button class="add-to-cart" onclick="addToCart('HAIR STRAIGHTNER', 3500)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Images\HP VICTUS ( i5 generation 1 tb ssd ).jpeg" alt="HP VICTUS ( i5 generation 1 tb ssd )">
+            <h2>HP VICTUS ( i5 generation 1 tb ssd )</h2>
+            <p>₹1,00,000</p>
+            <button class="add-to-cart" onclick="addToCart('HP VICTUS ( i5 generation 1 tb ssd )', 100000)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Images\Microsoft Surface Pro.jpeg" alt="Microsoft Surface Pro">
+            <h2>Microsoft Surface Pro</h2>
+            <p>₹2,50,000</p>
+            <button class="add-to-cart" onclick="addToCart('Microsoft Surface Pro', 250000)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Images\MEN FORMAL SHOE.jpeg" alt="MEN FORMAL SHOE">
+            <h2>MEN FORMAL SHOE</h2>
+            <p>₹2,500</p>
+            <button class="add-to-cart" onclick="addToCart('MEN FORMAL SHOE', 2500)">Add to Cart</button>
+            <button onclick="window.location.href='checkout.html';" style="padding:10px 10px; background-color:rgb(76, 116, 175); color:white; border:none; cursor:pointer; font-size:14px; border-radius:5px;">Buy Now</button>
+        </div>
+    </section>   
+
+    <footer>
+        <p>@All Rights Reserved By ebay.co.in</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
